@@ -1,0 +1,11 @@
+.container-quem-somos {
+   margin: -8px;
+   height: 600px;
+   min-height: 600px;
+
+   background: #102f6b;
+   border-top: 11.2px solid #ffffff;
+
+   background-image: url('https://sti.ufrn.br/img/site-sinfo_foto-topo.e8f10e15.jpg');
+   background-position: 50% 50%;
+}

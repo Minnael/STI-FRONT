@@ -11,7 +11,7 @@ function Navbar(){
                   <li className='item'>Quem somos</li>
                   <li className='item'>O que fazemos</li>
                   <li className='item'>Oportunidades</li>
-                  <li className='item'>Fale conosco</li>
+                  <button className='item'>Fale conosco</button>
                </ul>
             </div>
       </nav>

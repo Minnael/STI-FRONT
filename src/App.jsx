@@ -1,11 +1,12 @@
-import './styles.css'
+import './global.css'
 import Navbar from "./Components/Layout/Navbar/Navbar.jsx"
+import QuemSomos from "./Components/Pages/QuemSomos/QuemSomos.jsx"
 
 function App() {
   return (
     <>
       <Navbar/>
-      <h1>teste</h1>
+      <QuemSomos/>
     </>
   )
 }

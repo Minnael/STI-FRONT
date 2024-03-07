@@ -1,6 +1,6 @@
 .navbar {
    display: flex;
-   height: 211.2px;
+   height: 200px;
    
    margin: -8px;
    justify-content: space-between;
@@ -17,22 +17,31 @@
 
 .list {
    display: flex;
+   margin-right: 140px;
    list-style: none;
    align-items: center;
+}
+
+.list li:hover {
+   color: #C8C8C8;
+   transition: 0.5s;
 }
 
 .item {
    margin-right: 1em;
    font-size: 18px;
    color: #ffffff;
+   font-weight: bold;
 }
 
-.item a {
-   color: #fff;
-   text-decoration: none;
+button {
+   height: 43px;
+   border: 2px solid #ffffff;
+   background: #0095DB;
 }
 
-.item a:hover {
-   color: #FFBB33;
-   text-decoration: none;
+button:hover {
+   color: #0095DB;
+   transition: 0.5s;
+   background: #ffffff;
 }

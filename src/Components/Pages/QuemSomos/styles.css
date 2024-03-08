@@ -1,11 +1,38 @@
 .container-quem-somos {
+   display: flex;
    margin: -8px;
    height: 600px;
-   min-height: 600px;
-
+      
    background: #102f6b;
-   border-top: 11.2px solid #ffffff;
 
    background-image: url('https://sti.ufrn.br/img/site-sinfo_foto-topo.e8f10e15.jpg');
    background-position: 50% 50%;
 }
+
+.bem-vindo {
+   margin: auto;
+   max-width: 800px;
+}
+
+.container-quem-somos h2 {
+   text-align: center;
+   color: #ffffff;
+   font-size: 41px;
+   font-weight: 400;
+   margin-top: 10px;
+}
+
+.container-quem-somos p {
+   text-align: center;
+   margin-top: -30px;
+
+   color: #ffffff;
+   font-size: 18px;
+}
+
+.x {
+   width: 500px;
+   height: 500px;
+   background-color: red;
+}
+

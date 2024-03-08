@@ -1,13 +1,22 @@
 .navbar {
    display: flex;
+   position: sticky;
+   top: 0;
    height: 200px;
    
    margin: -8px;
    justify-content: space-between;
    align-items: center;
 
+   border-bottom: 11.4px solid #ffffff;
    background-color: #0095DB;
+   transition: 0.3s;
 }
+
+.small {
+   height: 90px;
+   transition: 0.3s;
+ }
 
 .navbar img {
    margin-left: 200px;
@@ -35,6 +44,7 @@
 }
 
 button {
+   width: 145px;
    height: 43px;
    border: 2px solid #ffffff;
    background: #0095DB;

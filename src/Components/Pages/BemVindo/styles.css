@@ -1,0 +1,42 @@
+.container-bem-vindo {
+   display: flex;
+   margin: -8px;
+   height: 600px;
+      
+   align-items: center;
+   text-align: center;
+   background: #102f6b;
+    
+   background-image: url('https://sti.ufrn.br/img/site-sinfo_foto-topo.e8f10e15.jpg');
+   background-position: 50% 50%;
+}
+
+.bem-vindo {
+   margin: auto;
+   margin-top: 240px;
+   max-width: 800px;
+}
+
+.container-bem-vindo h2 {
+   text-align: center;
+   color: #ffffff;
+   font-size: 41px;
+   font-weight: 400;
+   margin-top: 10px;
+}
+
+.container-bem-vindo p {
+   text-align: center;
+   margin-top: -30px;
+
+   color: #ffffff;
+   font-size: 18px;
+}
+
+.seta{
+   margin-top: 112px;
+   height: 55px;
+   object-fit: cover;
+   color: #79c8f1;
+   cursor: pointer;
+}

@@ -1,9 +1,9 @@
 .navbar {
    display: flex;
    position: sticky;
-   top: 0;
    height: 200px;
-   
+   top: 0;
+
    margin: -8px;
    justify-content: space-between;
    align-items: center;
@@ -11,6 +11,8 @@
    border-bottom: 11.4px solid #ffffff;
    background-color: #0095DB;
    transition: 0.3s;
+   cursor: pointer;
+   z-index: 10;
 }
 
 .small {
@@ -31,7 +33,7 @@
    align-items: center;
 }
 
-.list li:hover {
+.list .item:hover {
    color: #C8C8C8;
    transition: 0.5s;
 }
@@ -43,15 +45,25 @@
    font-weight: bold;
 }
 
-button {
+.button {
+   margin-right: 1em;
+   font-size: 18px;
+   color: #ffffff;
+   font-weight: bold;
+
    width: 145px;
    height: 43px;
    border: 2px solid #ffffff;
    background: #0095DB;
 }
 
-button:hover {
+.button:hover {
    color: #0095DB;
    transition: 0.5s;
    background: #ffffff;
+}
+
+.logo:active {
+   border: 1px solid #ffffff; 
+   opacity: 0.8; 
 }

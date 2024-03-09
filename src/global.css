@@ -1,5 +1,5 @@
 * {
-   font-family: 'Liberation Sans', sans-serif;
+  font-family: 'Liberation Sans', sans-serif;
 }
 
 
@@ -9,10 +9,11 @@
    left: 0;
    width: 100%;
    z-index: 1000;
-   /* Adicione outros estilos conforme necessário para a barra de navegação fixa */
- }
+}
  
- /* Adicione estilos para o conteúdo abaixo da barra de navegação fixa */
- .app-container {
-   padding-top: 60px; /* Ajuste conforme necessário para a altura da sua barra de navegação fixa */
- }
+.app-container {
+  padding-top: 60px; 
+}
+
+
+

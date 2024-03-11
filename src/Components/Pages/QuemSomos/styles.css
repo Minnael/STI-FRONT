@@ -33,3 +33,58 @@
    color: #ffffff;
    max-width: 880px;
 }
+
+.linha {
+   width: 346px;
+   border-bottom: 3px solid #ffffff;
+}
+
+.container-icones {
+   display: flex;
+   margin-top: 40px;
+   margin-left: 20px;
+   font-size: 16px;
+   color: #ffffff;
+}
+ 
+.equipes,
+.organograma {
+   display: flex;
+   align-items: center;
+   margin-right: 20px;
+}  
+
+.span {
+   margin-left: 12px;
+}
+
+.icone-equipe {
+   width: 40.5px;
+   height: 45px;
+   color: #ffffff;
+   transition: 0.5s;
+}
+
+.icone-org {   
+   width: 43.5px;
+   height: 45px;
+   color: #ffffff;
+   transition: 0.5s;
+}
+
+.equipes:hover,
+.organograma:hover {
+   .icone-equipe {
+      color: #0095db;
+   }
+   .icone-org {
+      color: #0095db;
+   }
+   color: #0095db;
+   transition: 0.5s;
+   cursor: pointer;
+}
+ 
+.no-scroll {
+   overflow: hidden;
+}

@@ -1,0 +1,45 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.2); 
+}
+
+.caixa-equipe {
+  position: absolute;
+  width: 828px;
+  height: 505px;
+  top: 50%;
+  left: 50%;
+  padding: 0 40px;
+  transform: translate(-50%, -50%);
+  border: 12px solid #79cbf2;
+  background-color: white;
+  z-index: 1000;
+}
+
+.caixa-equipe h1 {
+  font-size: 40px;
+  color: #194bab;
+}
+
+.titulo-exit {
+  width: 824.5px;
+  height: 40px;
+}
+
+.exit-button {
+  margin: -75px 0px 150px 800px;
+  width: 28px;
+  height: 28px;
+  color: #194bab;
+  transition: 0.7s;
+}
+
+.exit-button:hover {
+  color: #79cbf2;
+  transition: 0.7s;
+}

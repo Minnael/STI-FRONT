@@ -24,11 +24,11 @@ function Navbar(){
 
    return (
       <nav id="navbar" className={fix ? 'navbar small' : 'navbar'}>
-         <Link to={"topo"} smooth={true} offset={-70}><img className="logo" src={logo} alt="STI"/></Link>
+         <Link to={"topo"} offset={-70}><img className="logo" src={logo} alt="STI"/></Link>
             <div className='container-navbar'>
                <ul className='list'>
-                  <Link className='item' to={"topo"} smooth={true} offset={-70}>Início</Link>
-                  <Link className='item' to={"QuemSomos"} smooth={true} offset={-210}>Quem somos</Link>
+                  <Link className='item' to={"topo"} offset={-70}>Início</Link>
+                  <Link className='item' to={"QuemSomos"} offset={-100}>Quem somos</Link>
                   <li className='item'>O que fazemos</li>
                   <li className='item'>Oportunidades</li>
                   <button className='button'>Fale conosco</button>

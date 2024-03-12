@@ -1,14 +1,16 @@
 import "./styles.css"
 import { useEffect, useState } from "react";
 import { FaUserFriends } from "react-icons/fa";
+import CaixaOrg from "./CaixaOrg/CaixaOrg.jsx";
 import { RiOrganizationChart } from "react-icons/ri";
 import CaixaEquipe from "./CaixaEquipe/CaixaEquipe.jsx";
 
 function QuemSomos(){
    const [caixaEquipe, setCaixaEquipe] = useState(false);
+   const [caixaOrg, setCaixaOrg] = useState(false);
 
    useEffect(() => {
-      if (caixaEquipe) {
+      if (caixaEquipe || caixaOrg) {
         document.body.classList.add('no-scroll');
       } else {
         document.body.classList.remove('no-scroll');
@@ -16,7 +18,7 @@ function QuemSomos(){
       return () => {
         document.body.classList.remove('no-scroll');
       };
-   }, [caixaEquipe]);
+   }, [caixaEquipe, caixaOrg]);
 
    return (
       <>
@@ -29,12 +31,13 @@ function QuemSomos(){
                <div className="container-icones">
                   <div className="equipes">
                      <FaUserFriends className="icone-equipe" onClick={() => setCaixaEquipe(true)}/>  
-                     <span className="span">Equipes</span>
+                     <span className="span" onClick={() => setCaixaEquipe(true)}>Equipes</span>
                      <CaixaEquipe isOpen={caixaEquipe} onClose={() => setCaixaEquipe(false)}/>
                   </div>
                   <div className="organograma">
-                     <RiOrganizationChart className="icone-org"/>
-                     <span className="span">Organograma</span>
+                     <RiOrganizationChart className="icone-org" onClick={() => setCaixaOrg(true)}/>
+                     <span className="span" onClick={() => setCaixaOrg(true)}>Organograma</span>
+                     <CaixaOrg isOpen={caixaOrg} onClose={() => setCaixaOrg(false)}/>
                   </div>
                </div>
             </div>

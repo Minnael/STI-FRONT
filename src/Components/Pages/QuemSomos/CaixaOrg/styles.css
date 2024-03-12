@@ -1,4 +1,4 @@
-.overlay {
+.overlay-org {
   position: fixed;
   top: 0;
   left: 0;
@@ -7,11 +7,11 @@
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.2); 
 }
-
-.caixa-equipe {
+ 
+.caixa-org {
   position: absolute;
-  width: 828px;
-  height: 505px;
+  width: 690px;
+  height: 570px;
   top: 50%;
   left: 50%;
   padding: 0 40px;
@@ -19,37 +19,51 @@
   border: 12px solid #79cbf2;
   background-color: white;
   z-index: 1000;
+  color: #4e4e4e;
 }
-
-.caixa-equipe h1 {
+ 
+.caixa-org h1 {
+  margin-top: 17px;
   font-size: 40px;
   color: #194bab;
 }
-
-.titulo-exit {
-  width: 824.5px;
+ 
+.titulo-exit-org {
+  width: 724.5px;
   height: 40px;
 }
-
-.exit-button {
-  margin: -75px 0px 150px 800px;
+ 
+.exit-button-org {
+  margin: -65px 50px 150px 670px;
   width: 28px;
   height: 28px;
   color: #194bab;
   transition: 0.7s;
 }
-
-.exit-button:hover {
+ 
+.exit-button-org:hover {
   color: #79cbf2;
   transition: 0.7s;
   cursor: pointer;
 }
 
-.select {
-  border: 0.3px solid;
-  margin-top: 20px;
-  border: line;
+.texto {
+  margin-top: 35px;
   font-size: 18px;
-  width: 420px;
-  height: 35px;
+}
+
+.link {
+  text-decoration: none;
+  transition: 0.8s;
+}
+
+.link:hover{
+  color: #79cbf2;
+  transition: 0.8s;
+}
+
+.box-icon {
+  width: 16px;
+  height: 16px;
+  border: 10px solid ;
 }

@@ -1,6 +1,22 @@
-.container-que-fazemos {
+.container-solucoes {
+   display: flex;
    margin: -8px;
-   height: 525px;
-   background-color: #0095db;
+   margin-top: 8px;
+   height: 580px;
+   background-color: #1c4cac;
 }
 
+.solucoes h2 {
+   display: flex;
+   font-size: 40px;
+   color: #ffffff;
+   margin-left: 175px;
+   margin-top: 245px;
+}
+
+.infraestrutura-redes {
+   height: 500px;
+   margin: -8px;
+   margin-top: 8px;
+   background-color: #164194;
+}

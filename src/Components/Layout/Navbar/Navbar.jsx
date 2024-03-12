@@ -29,7 +29,7 @@ function Navbar(){
                <ul className='list'>
                   <Link className='item' to={"topo"} offset={-70}>Início</Link>
                   <Link className='item' to={"QuemSomos"} offset={-100}>Quem somos</Link>
-                  <li className='item'>O que fazemos</li>
+                  <Link className='item' to={"QueFazemos"} offset={-150}>O que fazemos</Link>
                   <li className='item'>Oportunidades</li>
                   <button className='button'>Fale conosco</button>
                </ul>

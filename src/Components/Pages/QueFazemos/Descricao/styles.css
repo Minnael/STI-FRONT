@@ -1,0 +1,122 @@
+.container-que-fazemos {
+   display: flex;
+   margin: -8px;
+   height: 347px;
+   margin-top: 8px;
+   background-color: #0095db;
+}
+
+.container-que-fazemos h2 {
+   width: 220px;
+   font-size: 40px;
+   color: #ffffff;
+   text-align: right;
+   margin-top: 50px;
+   margin-left: 170px;
+}
+
+.descricao-que-fazemos {
+   width: 625px;
+   height: 342px;
+   padding: 25px;
+   background-color: #ffffff;
+   margin-top: 60px;
+   margin-left: 70px;
+}
+
+.descricao-sti {
+   color: #4e4e4e;
+   margin-top: 2px;
+   font-size: 18px;
+}
+
+
+.tipos-servico {
+   width: 675px;
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+
+.tipos-servico div {
+   width: 153px;
+   height: 89px;
+   margin-top: 15px;
+   font-weight: bold;
+   font-size: 18px;
+   color: #164194;
+   text-align: center;
+}
+
+.tipos-servico p {
+   display: flex;
+   margin-top: 5px;
+}
+
+.icon {
+   width: 33px;
+   height: 27px;
+}
+
+.opcoes-que-fazemos {
+   display: flex;
+   height: 63px;
+   width: 675px;
+   margin-top: 29px;
+   margin-left: -25px;
+   background-color: #0095db;
+   color: #ffffff;
+   font-size: 16px;
+   font-weight: bold;
+   flex-direction: row;
+}
+
+.opcoes-que-fazemos div {
+   display: flex;
+   width: 140px;
+   margin-left: 30px;
+   flex-direction: row;
+}
+
+.opcoes-que-fazemos a {
+   text-decoration: none;
+   color: #ffffff;
+   transition: 0.7s;
+}
+
+.icon-service {
+   width: 24px;
+   height: 24px;
+   margin-right: 10px;
+}
+
+.manuais,
+.transparencia,
+.governanca,
+.carta {
+   align-items: center;
+   transition: 0.7s;
+}
+
+.manuais:hover,
+.transparencia:hover,
+.governanca:hover,
+.carta:hover {
+   color: #79cbf2;
+   transition: 0.7s;
+}
+
+.governanca:hover a,
+.carta:hover a {
+   color: #79cbf2;
+   transition: 0.7s;
+}
+
+.governanca,
+.carta {
+   .icon-service {
+      width: 28px;
+      height: 28px;
+   }
+}
+

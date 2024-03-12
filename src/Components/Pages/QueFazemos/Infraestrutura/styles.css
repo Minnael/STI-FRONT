@@ -1,0 +1,17 @@
+.card-infra {
+   display: flex;
+   height: 800px;
+   margin: -8px;
+   margin-top: 8px;
+   justify-content: center;
+   background-color: #164194;
+}
+
+.cards {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: -156px;
+   margin-left: 63px;
+}
+

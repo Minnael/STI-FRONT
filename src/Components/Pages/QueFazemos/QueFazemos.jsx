@@ -1,5 +1,7 @@
 import "./styles.css"
 import Descricao from "./Descricao/Descricao"
+import Infraestrutura from "./Infraestrutura/Infraestrutura"
+
 
 function QueFazemos(){
    return(
@@ -18,7 +20,7 @@ function QueFazemos(){
                   cooperação conosco.
                </p>
          </div>
-         <div className="infraestrutura-redes"></div>
+         <Infraestrutura/>
       </div>
    )
 }

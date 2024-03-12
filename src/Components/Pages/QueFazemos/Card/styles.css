@@ -1,0 +1,59 @@
+.container-card {
+   margin-right: 60px;
+}
+
+.container-card h3 {
+   display: flex;
+   justify-content: center;
+   font-size: 20px;
+   color: #ffffff;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   width: 261px;
+   height: 368px;
+   padding: 50px 45px;
+   
+   font-size: 18px;
+   line-height: 24px;
+   align-items: center;
+
+   color: #ffffff;
+   border: none;
+   border-top: 8px solid #0095db;
+   background-color: #102f6b;
+}
+
+.card img {
+   margin-bottom: 45px;
+   width: 192px;
+   height: 55px;
+}
+
+.triangle {
+   display: flex;
+   width: 0;
+   height: 0;
+   margin-top: -80px;
+   margin-left: 271px;
+   border-left: 80px solid transparent;
+   border-bottom: 80px solid #0095db;
+   transition: 0.7s;
+}
+
+.icon-mais {
+   display: flex;
+   width: 19.5px;
+   height: 19.5px;
+   margin-top: -40px;
+   margin-left: 320px;
+   color: #ffffff;
+}
+
+.triangle:hover{
+   border-bottom: 80px solid #7cccf4;
+   transition: 0.7s;
+   cursor: pointer;
+}

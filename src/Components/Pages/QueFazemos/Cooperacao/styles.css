@@ -45,6 +45,7 @@
    border: 2px solid #79c8f1;
    color: #79c8f1;
    transition: 0.9s;
+   cursor: pointer;
 }
 
 .container-coop h2 {

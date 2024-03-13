@@ -14,6 +14,7 @@ function App() {
       <QuemSomos/>
       <QueFazemos/>
       <Oportunidades/>
+      <div className="faleConosco"></div>
     </>
   )
 }

@@ -11,14 +11,29 @@
 .container-oportunidades h2{
    font-size: 40px;
    color: #ffffff;
+   letter-spacing: -2px;
+   margin-bottom: 47px;
    margin-left: 175px;
 }
 
 .opcoes-oportunidades {
    display: flex;
-   margin-left: 100px;
+   margin-left: 20px;
+   margin-top: 5px;
    font-size: 18px;
    color: #ffffff;
+   transition: 1.2s;
+}
+
+.opcoes-triangulo {
+   width: 0;
+   height: 0;
+   border-left: 32px solid transparent; 
+   border-right: 32px solid transparent;
+   border-bottom: 30px solid #0494dc; 
+   margin-top: 50px;
+   margin-right: -20px;
+   transform: rotate(-90deg);
 }
 
 .processos {
@@ -32,10 +47,33 @@
 
 .licenciada {
    display: flex;
-   width: 415px;
+   width: 432px;
    height: 130px;
    background-color: #0494dc;
-   align-items: center;
-   justify-content: center;
 }
 
+.licenciada p {
+   display: flex;
+   align-items: center;
+   margin-left: 115px;
+}
+
+.opcoes-linha {
+   display: flex;
+   width: 1px;
+   height: 70px;
+   margin-top: 28px;
+   background: rgba(152, 215, 219, .3);  
+}
+
+.opcoes-oportunidades p:hover {
+   color: #79cbf2;
+   text-decoration: underline;
+   transition: 0.7s;
+   cursor: pointer;
+}
+
+.arrow-opcoes {
+   margin-left: 7px;
+   margin-bottom: 5px;
+}

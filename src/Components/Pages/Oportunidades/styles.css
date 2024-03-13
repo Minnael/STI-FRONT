@@ -1,0 +1,41 @@
+.container-oportunidades {
+   display: flex;
+   height: 250px;
+   margin: -8px;
+   margin-top: 8px;
+   flex-direction: row;
+   background-color: #102f6b;
+   align-items: center;
+}
+
+.container-oportunidades h2{
+   font-size: 40px;
+   color: #ffffff;
+   margin-left: 175px;
+}
+
+.opcoes-oportunidades {
+   display: flex;
+   margin-left: 100px;
+   font-size: 18px;
+   color: #ffffff;
+}
+
+.processos {
+   display: flex;
+   width: 415px;
+   height: 130px;
+   background-color: #0494dc;
+   align-items: center;
+   justify-content: center;
+}
+
+.licenciada {
+   display: flex;
+   width: 415px;
+   height: 130px;
+   background-color: #0494dc;
+   align-items: center;
+   justify-content: center;
+}
+

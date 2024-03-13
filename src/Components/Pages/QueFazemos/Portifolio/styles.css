@@ -1,0 +1,77 @@
+.container-portifolio {
+   display: flex;
+   height: 880px;
+   margin: -8px;
+   margin-top: 8px;
+   flex-direction: column;
+   background-color: #164194;
+}
+
+.container-portifolio h1 {
+   display: flex;
+   margin-top: 35px;
+   margin-left: 175px;
+   font-size: 40px;
+   color: #ffffff;
+}
+
+.portifolio {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   overflow: hidden;
+   margin-top: 7px;
+}
+
+
+.image {
+   display: flex;
+   position: relative;
+   width: 252.2px;
+   height: 253px; 
+   margin-right: 1px;
+   margin-bottom: 1px;
+   align-items: center;
+   background-size: cover; 
+   background-position: center;
+}
+
+.back {
+   width: 252.2px;
+   height: 253px;
+   background-color: rgba(0,0,0, 0.2);
+}
+
+.card-container {
+   overflow: hidden;
+}
+
+.back:hover {
+   background-color: rgba(0,0,0, 0.3);
+}
+
+.titulo {
+   position: absolute; 
+   left: 50%;  
+   transform: translateX(-50%);
+   opacity: 0; 
+   transition: opacity 0.5s ease;
+   font-size: 18px;
+   font-weight: bold; 
+   color: #ffffff;
+}
+
+.image:hover {
+   transform: scale(1.1);
+   cursor: pointer; 
+   transition: 0.5s;
+}
+
+.image:hover .titulo {
+   opacity: 1;
+}
+
+
+
+
+

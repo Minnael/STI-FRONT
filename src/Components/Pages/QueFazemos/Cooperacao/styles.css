@@ -1,0 +1,63 @@
+.container-coop {
+   display: flex;
+   height: 670px;
+   margin: -8px;
+   margin-top: 8px;  
+   padding: 60px 25px;
+   align-items: center;
+   justify-content: center;
+   background-color: #0d295d;
+}
+
+.coop {
+   display: flex;
+   flex-direction: row;
+   margin-top: 0px;
+}
+
+.descricao-coop {
+   width: 410px;
+   height: 414px;
+   margin-top: 62px;
+   margin-right: 50px;
+}
+
+.button-coop {
+   display: flex;
+   width: 411px;
+   height: 53px;
+   background-color: #0d295d;
+   border: 2px solid #ffffff;
+   font-size: 20px;
+   margin-top: -50px;
+   justify-content: center;
+   align-items: center;
+   color: #ffffff;
+   transition: 0.9s;
+}
+
+.box-arrow {
+   margin-left: 10px;
+   font-size: 22px;
+}
+
+.button-coop:hover {
+   border: 2px solid #79c8f1;
+   color: #79c8f1;
+   transition: 0.9s;
+}
+
+.container-coop h2 {
+   font-size: 40px;
+   color: #ffffff;
+}
+
+.container-coop p {
+   font-size: 18px;
+   color: #ffffff;
+}
+
+.container-coop img{
+   width: 702px;
+   height: 675px;
+}

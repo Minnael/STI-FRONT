@@ -1,6 +1,6 @@
 .card-infra {
    display: flex;
-   height: 800px;
+   height: 450px;
    margin: -8px;
    margin-top: 8px;
    justify-content: center;
@@ -13,5 +13,43 @@
    justify-content: center;
    margin-top: -156px;
    margin-left: 63px;
+   z-index: 1;
 }
 
+.container-redes {
+   display: flex;
+   height: 300px;
+   margin: -8px;
+   margin-top: 8px;
+   justify-content: center;
+   background-color: #164194;
+}
+
+.redes {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: row;
+   margin-top: -65px;
+}
+
+.descricao-redes {
+   width: 847px;
+   margin-left: 50px;
+}
+
+.descricao-redes h2 {
+   width: 300px;
+   font-size: 40px;
+   color: #ffffff;
+}
+
+.descricao-redes p {
+   font-size: 18px;
+   color: #ffffff;
+}
+
+.redes img {
+   width: 273px;
+   height: 263px;
+}

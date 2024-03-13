@@ -1,5 +1,7 @@
 import "./styles.css"
 import Descricao from "./Descricao/Descricao"
+import Portifolio from "./Portifolio/Portifolio"
+import Cooperacao from "./Cooperacao/Cooperacao"
 import Infraestrutura from "./Infraestrutura/Infraestrutura"
 
 
@@ -21,6 +23,8 @@ function QueFazemos(){
                </p>
          </div>
          <Infraestrutura/>
+         <Portifolio/>
+         <Cooperacao/>
       </div>
    )
 }
